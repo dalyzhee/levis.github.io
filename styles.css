@@ -6,7 +6,7 @@
 html{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+    background-image: linear-gradient(to bottom, #89a3d2, #d0d9e6);
     background-size: cover;
     background-position: center;
 }
@@ -30,7 +30,7 @@ html{
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -71,13 +71,13 @@ html{
 
 .about {
     background-color: transparent; /* Choose your desired background color */
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 10px;
 }
 
 .about h2 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -98,36 +98,31 @@ html{
     width: 200px; /* Adjust the width as needed */
     box-sizing: border-box;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 2px;
+    padding: 5px;
+    /* margin: 2px; */
 }
 
 .columns h2 {
-    color: white;
+    color: black;
     text-align: center;
 }
 .columns ol{
     list-style-type: none;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .columns ol li {
-    background-color: #4CAF50;
-    color: white;
+    color: black;
     font-size: 18px;
     padding: 10px;
     margin: 5px;
-    border-radius: 5px;
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* Adjust as needed */
 }
 
 .social-icons a {
@@ -150,6 +145,7 @@ html{
     margin: 10px;
     border: 1px solid #ddd;
     text-align: center;
+    color: black;
 }
 
 .projects-container {
@@ -163,37 +159,35 @@ html{
     padding: 20px;
     margin: 10px;
     border: 1px solid #ddd;
+    color: black;
 }
-
 .project img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
-.project h2 {
-    color: #fff;
-}
+
 
 .links{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: black;
 }
 .links ul li{
     list-style: none;
     display: inline-block;
-    color: #fff;
+    color: black;
 }
 
 h3{
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 30;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 20px;
 }
