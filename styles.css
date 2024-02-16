@@ -58,7 +58,7 @@ html{
 .column {
     width: 48%; /* Adjust the width as needed */
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 10px;
     margin: 5px;
     height: 600px;
@@ -97,7 +97,7 @@ html{
 .columns {
     width: 200px; /* Adjust the width as needed */
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 5px;
     /* margin: 2px; */
 }
@@ -143,7 +143,7 @@ html{
     flex: 0 0 30%; /* Adjust the width as needed */
     padding: 20px;
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     text-align: center;
     color: black;
 }
@@ -158,7 +158,7 @@ html{
     flex: 0 0 30%; /* Adjust the width as needed */
     padding: 20px;
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     color: black;
 }
 .project img {
